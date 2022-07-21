@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background: darkgray;
+  overflow: hidden;
+  text-align: center;
+}
+
+#carCanvas {
+  background: lightgray;
+}
+#networkCanvas {
+  background: #000;
+}
+
+button {
+  position: absolute;
+  border: 2px solid #0f0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#save {
+  top: 0px;
+  right: 400px;
+}
