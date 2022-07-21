@@ -18,7 +18,7 @@ class Car {
     }
     this.controls = new Controls(type);
   }
-  draw(context, drawSensor = false) {
+  draw(carCtx, drawSensor = false) {
     if (this.damaged) carCtx.fillStyle = 'grey';
     else carCtx.fillStyle = 'black';
     carCtx.beginPath();
